@@ -1,24 +1,23 @@
 .container {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  margin: 32px;
+  max-width: 1440px;
+  width: 100%;
 }
 
 main,
 footer,
 .nav-container {
   display: block;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  margin: 32px;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
 
   &-container {
-    margin: 1rem auto;
+    margin: 32px;
     position: relative;
     text-align: center;
   }
@@ -26,9 +25,10 @@ footer,
   &-title {
     @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem;
+    display: block;
+    margin: 0px;
+    padding-top: 80px;
+    padding-right: 48px;
 
     &:hover,
     &:focus {
@@ -39,7 +39,7 @@ footer,
   ul {
     list-style-type: none;
     margin: 1rem 0 0;
-    padding: 0;
+    padding-right: 16px;
     text-align: center;
   }
 
